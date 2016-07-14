@@ -1,0 +1,29 @@
+{
+  "name": "ts-shebang",
+  "version": "1.0.0",
+  "description": "Make your ts files executable",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jakepearson/ts-shebang.git"
+  },
+  "keywords": [
+    "typescript",
+    "shebang"
+  ],
+  "author": "Jake Pearson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jakepearson/ts-shebang/issues"
+  },
+  "homepage": "https://github.com/jakepearson/ts-shebang",
+  "dependencies": {
+    "typescript": "^1.8.10"
+  },
+  "bin": {
+    "ts-shebang": "index.sh"
+  }
+}
